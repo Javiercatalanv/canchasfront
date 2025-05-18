@@ -1,0 +1,45 @@
+.dashboard-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #1e293b, #334155);
+  }
+  
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+    background-color: #1e293b; /* header oscuro */
+    padding: 1rem;
+    color: white;
+  }
+  
+  .menu-toggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .dashboard-title {
+    font-size: 1.3rem;
+  }
+  
+  .dashboard-body {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    margin: 1rem;
+    overflow-y: auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  }
+  

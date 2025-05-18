@@ -1,0 +1,80 @@
+.reservations-container {
+    padding: 2rem;
+  }
+  
+  .section-title {
+    color: #ef4444;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .no-reservations {
+    color: #64748b;
+    font-size: 1rem;
+  }
+  
+  .reservation-card {
+    background-color: #d3e0e2;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .reservation-card.cancelada {
+    background-color: #fde2e2;
+  }
+  
+  .reservation-info {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.6;
+    flex: 1 1 70%;
+  }
+  
+  .reservation-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex: 1 1 25%;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .cancel-button,
+  .edit-button {
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .cancel-button {
+    background-color: #dc2626;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #b91c1c;
+  }
+  
+  .edit-button {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #2563eb;
+  }
+  .reservation-card p,
+.reservation-card strong {
+  color: #000000 !important;
+}
+
+  

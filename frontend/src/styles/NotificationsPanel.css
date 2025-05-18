@@ -1,0 +1,26 @@
+.notifications {
+  width: 220px;
+  background-color: #f8fafc;
+  padding: 2rem 1rem;
+  height: 100vh;
+  box-shadow: -2px 0 6px rgba(0, 0, 0, 0.05);
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.notifications h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.notification-card {
+  background-color: #ffffff;
+  border-left: 4px solid #3b82f6;
+  padding: 1rem;
+  border-radius: 6px;
+  color: black; /* letra negra como pediste */
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
